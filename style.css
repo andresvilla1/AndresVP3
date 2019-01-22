@@ -10,20 +10,26 @@ display: flex;
 .column {
 height: 100%;
 width: 50%;
+background-color: blue;
 }
 .square {
 height: 33%;
 width: 100%;
 display: block;
 }
-.blue {
-background-color: blue;
+.red {
+background-color: red;
 }
-.green {
+.yellow {
 background-color: yellow;
 }
-.pink {
+.purple {
 background-color: purple;
+}
+
+.restrict-img-size {
+	max-height: 75%;
+	max-width: 75%;
 }
 
 /* When possible, organize CSS classes in alphabetical order */
