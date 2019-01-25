@@ -2,24 +2,39 @@
 <html>
 
 <!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Displaying Rows & Columns</title>
-<link rel="stylesheet" href="style.css" />
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Displaying Rows & Columns</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
 
 <!-- the <body> section is for all the content that is actually displayed on the page -->
-<body>
-	<div class="column blue">
-	<div class="square yellow"></div>
-		<h1>Brandon Ingram is the GOAT"</h1>
-	<div class="square purple"></div>
-	<div class="square red">
-		<img src="image/ingram.jpg" class="restrict-img-size"/>
-	</div>
-	</div>
-<div class="column blue"></div>
-</body>
+	<body>
+	
+
+		<div class="column blue" id="common-blue">
+
+		<div class="square yellow center-content" id="square-yellow">
+			<font size="10">Brandon Ingram is the GOAT</font>
+		</div>
+		<div class="square purple">
+			<font size="10">Why tho</font>
+			<img src="image/biarmtwo.png" class="restrict-img-size"/>
+		</div>
+
+		
+		
+		<div class="square red">
+			<img src="image/ingram.jpg" class="restrict-img-size"/>
+		</div>
+		</div>
+		<div class="column blue"/> 
+			<img src="image/whoman.png" id="laker" class="restrict-img-size" onclick="showIngram(this)" />
+			<font size="10">Click to see who the King Of Kings is</font>
+		</div>
+		<script src="script.js"></script>
+	</body>
+
 </html>
