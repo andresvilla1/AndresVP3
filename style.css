@@ -38,4 +38,8 @@ display: flex;
   margin-right: auto;
 }
 
+.opaque {
+	opacity: 0.75;
+}
+
 /* When possible, organize CSS classes in alphabetical order */
