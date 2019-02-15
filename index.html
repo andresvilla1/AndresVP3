@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Displaying Rows & Columns</title>
+		<title>Escape Room</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 
@@ -14,28 +14,33 @@
 	<body>
 	
 
-		<div class="column blue" id="common-blue">
+		<div class="column blue" id="blue">
+			<div class="column red" id="red">
+				<div class="column yellow" id="yellow">
+				</div>
+				<div class="column yellowtwo" id="yellowtwo">
+				</div>
+				<div class="column yellowthree" id="yellowthree">
+				</div>
+				<div class="column yellowfour" id="yellowfour">
+				</div>
+			</div>
+			<div class="column green" id="green">
+				<div class="column purple" id="purple">
+				</div>
+				<div class="column purple" id="purple2">
+				</div>
+				<div class="column purple" id="purple3">
+				</div>
+			</div>
+		</div>
 
-		<div class="square yellow center-content" id="square-yellow" onClick="allOpaque(this)"/>
-			<marquee behavior=”scroll” direction=”right” bgcolor="Purple" height=”50″>Brandon Ingram is the GOAT, nuff said!</marquee>
-			<img src="image/bigoat.png" id="laker" class="restrict-img-size" onclick="showIngram(this)" />
-		</div>
-		<div class="square purple" id="purple-column" onClick="allOpaque(this)"/>
-			<font size="10">Click any of the divs!</font>
-			<img src="image/biarmtwo.png" id="lakertwo" class="restrict-img-size" onClick="showIngram(this)" />
-		</div>
 
 		
 		
-		<div class="square red" id="red-column" onClick="allOpaque(this)" />
-			<img src="image/ingram.jpg" id="lakerthree" class="restrict-img-size" onclick="showIngram(this)" />
-			<marquee behavior=”scroll” direction=”right” bgcolor="Purple"  height=”36″>Ingram will be the Best NBA player ever in the long run. He oozes potential and will be a Laker GOAT</marquee>
 		</div>
 		</div>
-		<div class="column blue" id="lakers-column" onClick="allOpaque(this)"/>
-			<img src="image/whoman.png" id="laker" class="restrict-img-size" onclick="showIngram(this)" />
-			<font size="10">Click to see who the King Of Kings is</font>
-		</div>
+
 		<script src="script.js"></script>
 	</body>
 

@@ -19,12 +19,72 @@ display: flex;
 }
 .red {
 	background-color: red;
+	height:75%;
+	width: 100%;
+	display:flex;
+	border-style: solid;
+	border-width: 2px;
 }
 .yellow {
 	background-color: yellow;
+	height:100%;
+	width:calc(100%/4);
+	border-style: solid;
+	border-width: 2px;
 }
+.yellowtwo {
+	background-color: yellow;
+	height:100%;
+	width:calc(100%/4);
+	border-style: solid;
+	border-width: 2px;
+}
+
+.yellowthree {
+	background-color: yellow;
+	height:100%;
+	width:calc(100%/4);
+	border-style: solid;
+	border-width: 2px;
+}
+
+.yellowfour {
+	background-color: yellow;
+	height:100%;
+	width:calc(100%/4);
+	border-style: solid;
+	border-width: 2px;
+}
+
+.green {
+	background-color: green;
+	height:25%;
+	width:100%;
+	display: flex;
+}
+
 .purple {
 	background-color: purple;
+	height:100%;
+	width:calc(100%/3);
+	border-style: solid;
+	border-width: 2px;
+}
+
+.purple2 {
+	background-color: purple;
+	height:100%;
+	width:calc(100%/3);
+	border-style: solid;
+	border-width: 2px;
+}
+
+.purple3 {
+	background-color: purple;
+	height:100%;
+	width:calc(100%/3);
+	border-style: solid;
+	border-width: 2px;
 }
 
 .restrict-img-size {
